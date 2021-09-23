@@ -1,0 +1,113 @@
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: maroon;
+}
+
+.banner-img{
+    position: relative;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-family:'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 20px;
+}
+
+.main-cont{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+
+.sec-text{
+    
+    padding-top: 30px;
+}
+
+.p-text-year{
+    font-family:'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.p-text-main{
+    font-family:'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-size: 2.30rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.p-text-sub{
+    font-family:'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 900;
+    line-height: 1.8;
+}
+
+.line {
+    background:gray;
+    position:relative;
+    height: 2.2px;
+}
+.line:before {
+    content:'';
+    background:maroon;
+    width:50%;
+    height:1.5px;
+    position:absolute;    
+}
+
+.btn-floating{
+    background-color: gray;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 1;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.footer-align{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-color{
+    background-color: black;
+}
+
+.copyright{
+    font-size: x-small;
+    margin-left: 575px;
+    margin-top: -5px;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: maroon;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
